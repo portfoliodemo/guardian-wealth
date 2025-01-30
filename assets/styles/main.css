@@ -522,9 +522,9 @@ nav {
     max-width: 60ch;
 }
 
-/* .team-member figure {
-    width: 77%;
-} */
+.team-member figure {
+    max-width: 40rem;
+}
 
 .team-member figure img {
     border-radius: 1rem;
