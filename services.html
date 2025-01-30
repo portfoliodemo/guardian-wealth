@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Guardian Wealth's full range of financial services, including retirement planning, tax strategies, estate planning, and wealth preservation.">
+    <meta name="keywords" content="financial services, retirement planning, estate planning, tax strategies, wealth preservation, life insurance">
+
+    <title>Our Services | Guardian Wealth</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--- CSS -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+
+  <!-- Off Canvas Navbar -->
+  <nav class="navbar navbar-expand-lg nav-fill bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/images/gw-working-demo-bs-nav.png" width="50" height="50" alt="Guardian Wealth Logo">
+      </a>
+      <a class="navbar-brand" href="index.html"><span class="full-title">Guardian Wealth</span><span class="mobile-title">GW</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Guardian Wealth</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item offcanvas-home">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <!-- Potential Dropdown -->
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="services.html#retirement-service">Retirement Planning</a></li>
+                <li><a class="dropdown-item" href="#">Life Insurance</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Tax Planning</a></li>
+                <li><a class="dropdown-item" href="#">Wealth Preservation</a></li>
+                <li><a class="dropdown-item" href="#">Estate Planning</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Resources</a></li>              
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="our-team.html">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link client-login" href="https://www.dfs-invest.ca" target="_blank" title="Client Login">Client Login</a>
+            </li>
+          </ul>
+          <!-- Potential Search -->
+          <!-- <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="dark-background">
+    <!-- Our Services Hero Section -->
+    <div class="hero-section">
+      <div class="hero">
+        <picture>
+          <source srcset="./assets/images/many-sunny-trees.jpg" media="(max-width: 999px)">
+          <source srcset="./assets/images/many-sunny-trees-tablet.jpg" media="(min-width: 1000px) and (max-width: 1229px)">
+          <source srcset="./assets/images/many-sunny-trees-widescreen.jpg" media="(min-width: 1230px)">
+          <img src="./assets/images/many-sunny-trees.jpg" alt="Road weaving amongst forests nestled amongst mountains.">
+        </picture>
+        <!-- <figure>
+          <img src="./assets/images/many-sunny-trees.jpg" alt="A sunny yard full of mature trees.">
+        </figure> -->
+      </div>
+    </div>
+  
+    <section class="our-services-introduction">
+      <h3 class="display-3">Our Services</h3>
+      <p class="lead">At Guardian Wealth, we offer a comprehensive range of financial services designed to help you safeguard your wealth, plan for the future, and achieve your financial goals. </p>
+      <p class="lead">Our personalized approach ensures that each client receives strategies tailored to their unique needs and aspirations.</p>
+    </section>
+  
+    <section class="our-services-details">
+  
+      <div class="service-detail fade-in">
+        <h4 class="display-4">Retirement Income Planning</h4>
+        <p class="lead">Ensure your financial security in retirement with a strategy designed to provide sustainable income throughout your retirement years. Our team works closely with you to create a plan that adapts to your lifestyle and future goals, so you can enjoy your retirement with confidence.</p>
+        <figure class="services-svg">
+          <img src="./assets/images/svg/scale-balanced-solid.svg" alt="Balanced Scale (icon)">
+        </figure>
+  
+        <ul>
+          <!-- <li class="lead"><span class="bold">What We Offer</span></li> -->
+          <li class="lead">Customized retirement income strategies</li>
+          <li class="lead">Investment portfolio management</li>
+          <li class="lead">Long-term care and healthcare considerations</li>
+          <li class="lead">Tax-efficient withdrawal strategies</li>
+        </ul>
+      </div>
+  
+      <div class="service-detail fade-in">
+        <h4 class="display-4">Life Insurance Solutions</h4>
+        <p class="lead">Protect your loved ones and safeguard your financial future with our comprehensive life insurance solutions. We provide expert advice on choosing the right coverage for your family, ensuring peace of mind and security in the event of the unexpected.</p>
+        <figure class="services-svg">
+          <img src="./assets/images/svg/people-roof-solid.svg" alt="SVG Icon of people under a roof, representing insurance.">
+        </figure>
+  
+        <ul>
+          <li class="lead">Term life, whole life, and universal life insurance</li>
+          <li class="lead">Income protection and disability insurance</li>
+          <li class="lead">Estate preservation strategies</li>
+          <li class="lead">Business succession planning</li>
+        </ul>
+      </div>
+  
+      <div class="service-detail fade-in">
+        <h4 class="display-4">Tax Planning</h4>
+        <p class="lead">Maximize your wealth and minimize tax liabilities with our expert tax planning services. Our team helps you optimize your tax situation through personalized strategies that align with your overall financial plan.</p>
+        <figure class="services-svg">
+          <img src="./assets/images/svg/landmark-solid.svg" alt="SVG Icon of a government building, representing taxation.">
+        </figure>
+  
+        <ul>
+          <li class="lead">Tax-efficient investment strategies</li>
+          <li class="lead">Retirement tax planning</li>
+          <li class="lead">Charitable giving and tax deductionss</li>
+          <li class="lead">Business and corporate tax solutions</li>
+        </ul>
+      </div>
+  
+      <div class="service-detail fade-in">
+        <h4 class="display-4">Wealth Protection and Preservation</h4>
+        <p class="lead">Protect your assets and ensure your financial legacy with our wealth preservation services. We create customized strategies designed to safeguard your wealth from market volatility, economic shifts, and unexpected events.</p>
+        <figure class="services-svg">
+          <img src="./assets/images/svg/vault-solid.svg" alt="SVG Icon of a safe/vault, representing wealth protection and preservation.">
+        </figure>
+  
+        <ul>
+          <li class="lead">Asset protection strategies</li>
+          <li class="lead">Risk management and insurance planning</li>
+          <li class="lead">Diversified investment approaches</li>
+          <li class="lead">Estate planning for wealth transfer</li>
+        </ul>
+      </div>   
+      
+      <div class="service-detail fade-in">
+        <h4 class="display-4">Estate Planning</h4>
+        <p class="lead">Ensure that your wishes are honored and your legacy is preserved with a solid estate plan. Our team works closely with you to develop a comprehensive estate strategy that covers all aspects of wealth transfer and family protection.</p>
+        <figure class="services-svg">
+          <img src="./assets/images/svg/house-chimney-window-solid.svg" alt="SVG Icon of a house with a window and chimney, representing estate planning.">
+        </figure>
+  
+        <ul>
+          <li class="lead">Wills, trusts, and powers of attorney</li>
+          <li class="lead">Succession planning</li>
+          <li class="lead">Charitable giving and legacy planning</li>
+          <li class="lead">Estate tax minimization strategies</li>
+        </ul>
+      </div> 
+  
+    </section>
+  
+    <section class="services-cta" fade-in">
+      <h3 class="display-3">Get Started Today</h3>
+      <p class="lead"> With a focus on personalized service, long-term relationships, and expert guidance, Guardian Wealth is committed to helping you achieve your financial goals.</p>
+      <p class="lead">Our experienced team of advisors provides tailored solutions for every stage of life, ensuring that your wealth is protected and your future is secure.</p>
+      <p class="lead">Ready to take control of your financial future? Contact us for a free consultation, and let's build a plan that fits your unique needs and goals.</p>
+      <div class="about-cta-buttons">
+        <a href="https://nathanryan.setmore.com/nathanryan" class="btn btn-light btn-lg" target="_blank">Book a Free Consultation</a>
+      </div>
+    </section>
+  
+    <figure class="fade-in">
+      <img src="./assets/images/tree-swing-yard.jpg" alt="Looking upwards at a forests canopy, with sunlight shining through with vibrant green colours.">
+    </figure>
+  
+      <!-- <div class="cta-buttons">
+          <a href="https://nathanryan.setmore.com/nathanryan" class="btn btn-light btn-lg" target="_blank">Book a Free Consultation</a>
+      </div> -->
+  
+    </div>
+  
+
+  <!-- Demo Area - To Be Deleted -->
+
+
+  <!-- End of Services Section -->
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary ">Home</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+      <li class="nav-item"><a href="services.html" class="nav-link px-2 text-body-secondary">Services</a></li>
+      <li class="nav-item"><a href="our-team.html" class="nav-link px-2 text-body-secondary">Our Team</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+      <li class="nav-item"><a href="disclaimer-legal.html" class="nav-link px-2 text-body-secondary">Disclaimer + Legal</a></li>
+      <li class="nav-item"><a class="nav-link client-login-footer" href="https://www.dfs-invest.ca" target="_blank" title="Client Login">Client Login</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2025 Guardian Wealth</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
